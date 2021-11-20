@@ -14,6 +14,9 @@ public class Ex06 {
 		if(M>=45) {
 			System.out.println(H+" "+(M-45));
 		}
+		else if(H==0&&M<45) {
+			System.out.println("23"+" "+(60+(M-45)));
+		}
 		else {
 			System.out.println((H-1)+" "+(60+(M-45)));
 		}
