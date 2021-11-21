@@ -21,7 +21,5 @@ public class Ex13 {
 			System.out.println("Case #"+(i+1)+": "+case1[i]+" + "+case2[i]+" = "+(case1[i]+case2[i]));
 		}
 		sc.close();
-
 	}
-
 }
