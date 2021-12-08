@@ -7,17 +7,18 @@ public class Ex28 {
 
 	public static void main(String[] args) {
 		
+		int i= 0;
 		HashSet<Integer> hSet= new HashSet<Integer>();
 		
 		Scanner sc= new Scanner(System.in);
 		
-		int num= sc.nextInt();
-		int hash= num%42;
-		
-		hSet.add(hash);
+		do {
+			hSet.add(sc.nextInt()%42);
+			i++;
+		}
+		while (i<10);	
 		
 		sc.close();
-
+		System.out.println(hSet.size());
 	}
-
 }
